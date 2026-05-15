@@ -1,0 +1,63 @@
+# Archivos de video
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.flv
+*.wmv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+
+# Archivos de audio
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+*.m4a
+*.opus
+
+# Archivos de subtítulos grandes
+*.srt
+*.vtt
+*.ass
+
+# Directorios de medios
+assets/
+output/
+separated/
+
+# Archivos de sistema y entorno virtual
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Otros
+.env
+.env.local
+*.bak
