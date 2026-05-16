@@ -840,4 +840,5 @@ def videos():
 # RUN
 # ========================
 if __name__ == "__main__":
-    app.run(debug=True, threaded=True)
+    app.run(host="0.0.0.0", port=5000, debug=True, threaded=True)
+print("Server is running on http://0.0.0.0:5000")
